@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+	padding: 0;
+	border: 0;
+    list-style: none;
+    box-sizing: border-box;    
+}
+
+/* header CSS*/
+
+.header{
+    background-color: #FFFFFF;
+    width: 1440px;
+    height: 200px;
+}
+
+.header-top {
+    height: 120px;
+    padding: 30px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.header-top img {
+    width:auto;
+    height: 30px;
+}
+
+.header-top .icon {
+    width: auto;
+    height: 25px;
+}
+
+.header-top .icon:hover {
+    width: auto;
+    height: 27px;
+    transition: all 200ms ease;
+}
+
+.header-top button {
+    width: 80px;
+    height: 30px;
+    color: aliceblue;
+    background: #C92071;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-top button:hover {
+    background: #991956;
+    transition: all 200ms ease;
+}
+
+.header-top form {
+    display: flex;
+    align-items: center;
+}
+
+.header-top form input {
+    background-color: #dadada;
+    
+    color: #000000;
+    padding: 16px;
+    align-items: center;
+    width: 550px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.header-top form a{
+    margin-left: -50px;   
+}
+
+.header-botton{
+    height: 80px;
+    padding-left: 112px;    
+}
+
+.header-botton ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-botton ul li{
+    padding-right: 10px;
+    letter-spacing: 0.75px; 
+}
+
+.header-botton ul li a{   
+    text-decoration: none;         
+}
+
+/* começa o corpo do site */
+
+section{
+    width: 1440px;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+}
+
+section .banner-text {
+    width: 600px;
+    height: 680px;
+}
+
+section .banner-text h1 {
+    color: #1F1F1F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 66px;
+    letter-spacing: 1px    
+}
+
+section .banner-text h4 {
+    color: #F6AA1C;
+    letter-spacing: 0.75px;
+}
+
+section .images{
+    width: 880px;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+}
+
+section .images figure img{
+    width: 700px;
+    height: 500px;
+}
+
+section .images img {
+    width: 140px;
+    height: 140px;
+}
