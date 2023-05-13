@@ -6,14 +6,15 @@
 	padding: 0;
 	border: 0;
     list-style: none;
-    box-sizing: border-box;    
+    box-sizing: border-box;     
 }
 
-/* header CSS*/
+/* css do cabeçalho*/
 
 .header{
     background-color: #FFFFFF;
-    width: 1440px;
+    /* width: 1440px; */
+    width: 100%;
     height: 200px;
 }
 
@@ -47,7 +48,7 @@
     height: 30px;
     color: aliceblue;
     background: #C92071;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -62,8 +63,7 @@
 }
 
 .header-top form input {
-    background-color: #dadada;
-    
+    background-color: #dadada;    
     color: #000000;
     padding: 16px;
     align-items: center;
@@ -77,8 +77,9 @@
 }
 
 .header-botton{
+    display: flex;
     height: 80px;
-    padding-left: 112px;    
+    padding-left: 180px;    
 }
 
 .header-botton ul {
@@ -97,27 +98,34 @@
 
 /* começa o corpo do site */
 
+
+/* Inicio da section Melhores Ofertas */
+
 section{
-    width: 1440px;
+    width: 100%;
     height: 680px;
     display: flex;
     flex-direction: row;
-    background-color: #F5F5F5;
+    background-color: #F5F5F5;    
 }
 
 section .banner-text {
-    width: 600px;
+    width: 40%;
     height: 680px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 150px;
+    letter-spacing: 1px             
 }
 
 section .banner-text h1 {
+    margin: 20px 0;
     color: #1F1F1F;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 800;
     font-size: 64px;
-    line-height: 66px;
-    letter-spacing: 1px    
+    line-height: 66px;       
 }
 
 section .banner-text h4 {
@@ -125,19 +133,36 @@ section .banner-text h4 {
     letter-spacing: 0.75px;
 }
 
+section .banner-text button {
+    margin: 20px 0;
+    width: 220px;
+    height: 48px;
+    color: aliceblue;
+    background: #C92071;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section .banner-text button:hover {
+    background: #991956;
+    transition: all 200ms ease;
+}
+
+
 section .images{
-    width: 880px;
+    width: 60%;
     height: 680px;
     display: flex;
     flex-direction: row;
 }
 
 section .images figure img{
-    width: 700px;
-    height: 500px;
+    width: 800px;
+    height: auto;
 }
 
-section .images img {
-    width: 140px;
-    height: 140px;
+section .images .ornamento{
+    margin-top: 60px;
+    width: 160px;
+    height: 160px;
 }
